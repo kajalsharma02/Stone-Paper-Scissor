@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scisscor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="all">
+        <div class="container">
+            <div class="name">
+                ROCK<br>PAPER<br>SCISSORS
+            </div>
+
+            <div class="cScore">
+                Computer Score <br>
+                <h1 id="Cscore">0</h1>
+            </div>
+            <div class="uScore">
+                Your Score <br>
+                <h1 id="Yscore">0</h1>
+            </div>
+        </div>
+
+        <div class="game">
+            <div class="main">
+                <button class="rock" id="rock"></button>
+                <button class="paper" id="paper"></button><br>
+                <br>
+                <button class="scissors" id="scissors"></button>
+                
+                <button class="rock" id="Brock" id="rock"></button>
+                <button class="paper" id="Bpaper" id="paper"></button>
+                <button class="scissors" id="Bscissor" id="scissors"></button>
+
+                <h1 id="result"></h1>
+                <button id="replay"></button>
+
+                <!-- <img src="paper.png" alt="Oops!" id="comInput"> -->
+            </div>
+
+            <div class="rule" id="rule">
+                <p>Game Rules</p>
+                <button class="close" id="close">X</button>
+                <ul>
+                    <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li><br>
+                    <li>Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li><br>
+                    <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li><br>
+                    <li>If both players lay down the same hand, each player lays down another hand</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="ruleBTN">
+            <button id="ruleBT">Rule</button>
+        </div>
+    </div>
+
+    <div id="end">
+        <img id="star" src="star.png" alt="Not Found!">
+        <img id="vector" src="Vector.png" alt="Not Found!">
+        <p id="text1">HURRAY!!</p>
+        <p id="text2">YOU WON THE GAME</p>
+        <button id="final">Play Again</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
